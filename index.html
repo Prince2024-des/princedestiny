@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>BMI Calculator</h1>
+            <div class="content">
+
+
+
+                <div class="input">
+                    <label for="height">Age:</label>
+                    <input type="text" class="text-input" id="age" required>
+                </div>
+
+                <div class="gender">
+
+
+                    <div class="container">
+                        <input type="radio" name="radio" id="m" class="text" value="text" >
+                        <label for="man">Male</label>
+                        <!-- <span class="checkbox"></span> -->
+                    </div>
+                    <div class="container">
+                        <input type="radio" name="radio" id="f" class="text" value="text" >
+                        <label for="man">Female</label>
+                        <span class="checkbox"></span>
+                    </div>
+                </div>
+                    <div class="containerb">
+                        <div class="inputH">
+                            <label for="height">Height(g):</label>
+                            <input type="number" class="text-input" id="height" required>
+                        </div>
+                        <div class="inputW">
+                            <label for="weight">Weight(kg):</label>
+                            <input type="number" class="text-input" id="weight" required >
+                        </div>
+                    </div>
+                    <div class="Btn">
+                       <button class="calculator" id="submit" >Calculator BMI</button>
+                   </div>
+
+                <div class="result">
+                    <p>Your BMI is</p>
+                    <div id="result">00.00</div>
+                    <p class="commit"></p>
+                </div>
+            </div>
+
+
+        
+        </div>
+
+    </div>
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

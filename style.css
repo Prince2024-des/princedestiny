@@ -1,0 +1,159 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background-color: #b8c6db;
+}
+
+.container{
+    background-color: #fff;
+    border-radius:10px;
+    width: 500px;
+    overflow: hidden;
+    /* padding: 1rem; */
+
+}
+
+.container .card{
+    padding: 4rem;
+}
+
+
+.container .card h1{
+    text-align: center;
+    padding: 1rem;
+    margin: 0;
+    color: #b8c6db;
+}
+
+
+.container .card .content .input{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+
+.container .card .content .input .text-input{
+    padding: 7px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.container .card .content .input .text-input:hover{
+    background-color: #b8c6db;
+    cursor: pointer;
+}
+
+
+.container .card .content .gender {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+
+.container .card .content .gender .container{
+    font-weight: 700;
+    font-size: 20px;
+    /* cursor: pointer; */
+}
+
+
+.container .card .content .gender .container:hover{
+    color:#b8c6db;
+}
+
+.container .card .content .containerb{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.container .card .content .containerb .inputH label:hover{
+    color: #b8c6db;
+    cursor: pointer;
+    
+}
+
+
+.container .card .content .containerb .inputH #height.text-input{
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.container .card .content .containerb .inputH #height.text-input:hover{
+   background-color: #b8c6db;
+   cursor: pointer;
+}
+
+
+.container .card .content .containerb .inputW label:hover{
+    color: #b8c6db;
+    cursor: pointer;
+}
+
+
+.container .card .content .containerb .inputW #weight.text-input{
+    padding: 7px;
+    border-radius: 10px;
+}
+
+
+.container .card .content .containerb .inputW #weight.text-input:hover{
+    background-color: #b8c6db;
+    cursor: pointer;
+}
+
+
+.container .card .content .Btn{
+    text-align: center;
+
+}
+
+
+.container .card .content .Btn #submit.calculator{
+    width: 100%;
+    padding: 10px;
+    background-color: #b8c6db;
+    border: none;
+    border-radius: 10px;
+    color:white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.container .card .content .Btn #submit.calculator:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+

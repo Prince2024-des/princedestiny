@@ -148,6 +148,24 @@ body{
 }
 
 
+.container .card .content .result {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 1rem;
+    background-color: #b8c6db;
+    padding: 20px;
+    border-radius: 10px;
+    /* background-color: #b8c6db; */
+}
+
+/* .container .card .content .result .commit{
+    background-color: #b8c6db;
+    padding: 4rem;
+    border-radius: 10px;
+} */
+
+
 
 
 

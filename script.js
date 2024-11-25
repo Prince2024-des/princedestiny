@@ -20,16 +20,18 @@ function calculateBMI() {
     const weight = parseFloat(document.getElementById('weight').value);
     
     // Validate input values
-    if (age <= 0 || height <= 0 || weight <= 0 || isNaN(height) || isNaN(weight)) {
-        alert("Please filled in the gap above");
+    if (age <= 0 || height <= 0 || weight <= 0 || isNaN(height) || isNaN(weight) || isNaN(age)) {
+        alert("Please fill in all fields");
         return;
     }
+
 
     // Calculate BMI
     const bmi = weight / (height * height);
     
     // Categorize BMI
     let category;
+    
     if (bmi < 18.5) {
         category = "Underweight";
     } else if (bmi >= 18.5 && bmi < 25) {
@@ -40,10 +42,12 @@ function calculateBMI() {
         category = "Obese";
     }
 
+
     // Display result
     const resultDiv = document.getElementById('result');
-    resultDiv.textContent = bmi.toFixed(2); // Display the BMI value formatted to two decimal places
+    resultDiv.textContent = `Your BMI: ${bmi.toFixed(2)}`; // Display the BMI value formatted to two decimal places
 
     const commitDiv = document.querySelector('.commit');
     commitDiv.textContent = `Category: ${category}`;
+    return;
 }

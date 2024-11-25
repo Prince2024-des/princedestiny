@@ -156,7 +156,14 @@ body{
     background-color: #b8c6db;
     padding: 20px;
     border-radius: 10px;
+    color:white;
     /* background-color: #b8c6db; */
+}
+
+
+.container .card .content .result:hover{
+    background-color: #000000;
+    cursor: pointer;
 }
 
 /* .container .card .content .result .commit{
